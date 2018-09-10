@@ -33,6 +33,9 @@ try:
 
     distance = R * c
 
+    if distance <= 0:
+        print("That's the same city dumb**s")
+
     print("The distance between the two cities is ~> ", distance, "km")
 except:  # catching all errors coz am too lazy
-    print("An error occured. Probably too many requests. :)")
+    print("An error occured. You're probably making too many requests. :(")
